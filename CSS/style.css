@@ -40,6 +40,7 @@ header {
 
 .logo {
   width: 11rem;
+  cursor: pointer;
 }
 
 .grow-list {
@@ -64,6 +65,10 @@ header {
   font-weight: 500;
 }
 
+.list-item:hover{
+    cursor: pointer;
+    color: #000;
+}
 .black {
   color: #000;
   font-weight: 500;
@@ -79,6 +84,17 @@ header {
   color: #3493f1;
   font-weight: 600;
   border-radius: 5px;
+}
+
+.nav-button:hover{
+color: #fff;
+background-color: #1370EB;
+}
+.btn:hover{
+    cursor: pointer;
+    background: #fff !important;
+    border: 1px solid #079bf2;
+    color: #079bf2 !important;
 }
 /* .......................................................................................................  */
 .hero-section {
@@ -221,7 +237,10 @@ header {
   background-color: #3493f1 !important;
   color: #fff !important;
 }
-
+.btn-2:hover{
+    color: #079bf2 !important;
+    background-color: #fff;
+}
 /* ...................................................  */
 
 .customer{
@@ -335,6 +354,10 @@ footer{
 
 .footer-logo{
     width: 12rem;
+}
+
+.footer-logo:hover{
+    cursor: pointer;
 }
 
 .link_name{
