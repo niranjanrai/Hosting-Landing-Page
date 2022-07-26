@@ -319,3 +319,55 @@ header {
 .register-button button{
     border: 1px solid #fff !important;
 }
+
+
+/* Footer Style */
+footer{
+    margin-bottom: 3rem;
+}
+.link-boxes{
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr 1fr 1fr;
+    column-gap: 2rem;
+    /* align-items: center; */
+    /* justify-content: center; */
+}
+
+.footer-logo{
+    width: 12rem;
+}
+
+.link_name{
+    font-size: 2rem;
+    font-weight: 600;
+    color: #14263f;
+}
+.footer-para{
+width: 80%;
+color: #79797a;
+font-size: 1.2rem;
+}
+.box{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+.box a{
+    font-size: 1.2rem;
+    color: #79797a;
+}
+
+.social{
+    display: flex;
+    gap: 2rem;
+    align-items: center;
+}
+.social p{
+    font-size: 1.2rem;
+    width: 2.5rem;
+    background-color: #1370EB;
+    color: #fff;
+    padding: .5rem;
+    text-align: center;
+     border-radius: 50%;
+}
