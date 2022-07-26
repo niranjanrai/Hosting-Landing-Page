@@ -16,6 +16,7 @@ html {
 body {
     font-family: "Montserrat", sans-serif;
     font-family: "Poppins", sans-serif;
+    background-color: #FDFEFF;
 }
 
 /* Header style */
@@ -23,6 +24,11 @@ body {
 .container{
     max-width: 120rem;
     margin: 0 auto;
+    margin-top: 3rem;
+}
+
+header{
+    margin-bottom: 10rem;
 }
 
 .navbar-container{
@@ -30,6 +36,10 @@ body {
     justify-content: space-between;
     align-items: center;
     /* gap: 10rem; */
+}
+
+.logo{
+    width: 11rem;
 }
 
 .grow-list{
@@ -50,4 +60,77 @@ body {
 
 .list-item{
     font-size: 1.6rem;
+    color: #79797a;
+    font-weight: 500;
+}
+
+.black{
+    color: #000;
+    font-weight: 500;
+}
+
+.button-group button{
+display: block;
+width: 16rem;
+padding: 1.5rem 2.5rem;
+font-size: 1.6rem;
+background-color: #fff;
+border:2px solid lightskyblue;
+color: #3493F1;
+font-weight: 600;
+border-radius: 5px;
+} 
+/* .......................................................................................................  */
+.hero-section{
+    gap: 10rem;
+}
+.testing{
+    grid-column: 2/3;
+}
+.testing-img{
+    grid-column: 1/2;
+    grid-row: 1/2;
+}
+
+
+/* .........................................  */
+/* Services style  */
+/* ..............................................  */
+.service{
+    margin-bottom: 5rem;
+}
+
+
+.service-container{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10rem;
+}
+
+.services-wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    background-color: #fff;
+}
+
+.icon{
+    font-size: 6rem;
+     color: #3493F1;
+}
+
+.services-wrapper h2{
+    font-size: 2rem;
+    color: #14263F;
+}
+.services-wrapper p{
+    font-size: 1.2rem;
+    color: #79797a;
+}
+
+
+/* Pricing Container Style */
+.pricing-container{
+    max-width: 100vw;
+    background-color: #079BF2;
 }
