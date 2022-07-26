@@ -194,6 +194,8 @@ header {
 .price-card p {
   margin-bottom: 3rem;
   font-size: 1.4rem;
+  font-weight: 600;
+  color: #79797a;
 }
 .price-button {
   margin: 0 auto;
@@ -281,3 +283,39 @@ header {
     color: #79797a;
 }
 
+/* Register Section */
+.register-section{
+    height: 35rem;
+    background:linear-gradient(to left, #1370EB, #18C6F8);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.register-container{
+    display: flex;
+}
+.register-text{
+    display: flex;
+    gap: 2rem;
+    flex-direction: column;
+    justify-content: center;
+    /* width: 50%; */
+}
+.register-text h1{
+    font-size: 4rem;
+    color: #fff;
+}
+
+.register-text p{
+   font-size: 1.6rem;
+   color: #fff;
+   width: 60%;
+}
+.register-button{
+    align-self: center;
+}
+.register-button button{
+    border: 1px solid #fff !important;
+}
