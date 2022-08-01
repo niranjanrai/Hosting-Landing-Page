@@ -1,0 +1,9 @@
+@media (max-width: 75em) {
+   
+    .logo {
+        padding-left: 10px;
+    }
+    .grow-list{
+        padding-right: 10px;
+    }
+}
