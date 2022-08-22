@@ -1,9 +1,139 @@
-@media (max-width: 75em) {
-   
-    .logo {
-        padding-left: 10px;
-    }
-    .grow-list{
-        padding-right: 10px;
-    }
+@media (max-width: 1200px) {
+  .logo {
+    padding-left: 10px;
+  }
+  .grow-list {
+    padding-right: 10px;
+  }
+  .container {
+    margin: 0 5rem;
+  }
+}
+/* Max-width:1000px */
+
+@media (max-width: 1000px) {
+  html {
+    font-size: 55%;
+  }
+  .grow-list {
+    gap: 3rem;
+  }
+
+  .list {
+    gap: 3rem;
+  }
+}
+
+/* Max-width:800px */
+
+@media (max-width: 800px) {
+  .list {
+    display: none;
+  }
+  .primary-heading {
+    font-size: 3rem;
+  }
+  .service-container {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 7rem;
+  }
+  .icon {
+    font-size: 4rem;
+  }
+  .cards-container {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 5rem;
+  }
+  .pricing-heading h1 {
+    font-size: 3rem;
+  }
+  .customer-heading h1 {
+    font-size: 3rem;
+  }
+  .customer-heading p {
+    font-size: 1.2rem;
+  }
+  .customer-review {
+    grid-template-columns: 1fr;
+    gap: 4rem;
+  }
+  .register-text h1 {
+    font-size: 3rem;
+  }
+  .register-text p {
+    font-size: 1.4rem;
+  }
+  .link-boxes {
+    display: grid;
+    /* grid-template-columns: 2fr 1fr 1fr 1fr 1fr; */
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: 2rem;
+  }
+  .input-box {
+  }
+}
+/* Max-width:600px */
+
+@media (max-width: 600px) {
+  .list {
+    display: none;
+  }
+  .primary-heading {
+    font-size: 3rem;
+  }
+  .service-container {
+    grid-template-columns: 1fr;
+  }
+  .hero-section {
+    grid-template-columns: 1fr;
+    /* justify-content: center; */
+    /* align-items: center; */
+    gap: 5rem;
+    margin-bottom: 5rem;
+  }
+  #sup-img {
+    width: 100%;
+  }
+  #sup-img {
+    width: 100%;
+  }
+  .icon {
+    font-size: 4rem;
+  }
+  .cards-container {
+    grid-template-columns: 1fr;
+    gap: 5rem;
+  }
+  .pricing-heading h1 {
+    font-size: 3rem;
+  }
+
+  .customer-heading p {
+    width: 70%;
+  }
+
+  .customer-review {
+    grid-template-columns: 1fr;
+    gap: 4rem;
+    margin-bottom: 5rem;
+  }
+  .register-text h1 {
+    font-size: 2rem;
+  }
+  .register-text p {
+    font-size: 1.4rem;
+  }
+  .link-boxes {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: 2rem;
+  }
+
+  .register-container {
+    flex-wrap: wrap;
+    margin-bottom: 3rem;
+  }
+  .register-text {
+    margin-bottom: 5rem;
+  }
 }
