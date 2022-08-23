@@ -35,7 +35,6 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  /* gap: 10rem; */
 }
 
 .logo {
@@ -308,7 +307,6 @@ header {
   gap: 2rem;
   flex-direction: column;
   justify-content: center;
-  /* width: 50%; */
 }
 .register-text h1 {
   font-size: 4rem;
